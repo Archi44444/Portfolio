@@ -11,7 +11,7 @@ export const profile = {
   email: 'archita13mitra@gmail.com',
   github: 'https://github.com/Archi44444',
   linkedin: 'https://www.linkedin.com/in/archita-m-06296a330',
-  resumeUrl: 'https://drive.google.com/file/d/1QiFPzDmaIoKgCzqReLgHQ0--GCt7iHoC/view',
+  resumeUrl: 'https://drive.google.com/file/d/1jEOq5gyZ15N0_4APPzJHgf1teXFuMmVE/view?usp=sharing',
 }
 
 export const stats = [

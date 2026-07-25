@@ -161,7 +161,7 @@ function FloatingComposition() {
         className="absolute -left-6 top-10 rounded-2xl border border-line bg-card px-4 py-3"
         style={{ boxShadow: '0 20px 50px -25px rgba(102,0,51,0.3)' }}
       >
-        <p className="font-display text-2xl text-ink">3+</p>
+        <p className="font-display text-2xl text-ink">2+</p>
         <p className="text-[11px] uppercase tracking-widest text-muted">Years learning</p>
       </motion.div>
 
@@ -172,7 +172,7 @@ function FloatingComposition() {
         className="absolute -right-4 top-1/2 flex -translate-y-1/2 flex-col gap-2 rounded-2xl border border-line bg-card px-4 py-4"
         style={{ boxShadow: '0 20px 50px -25px rgba(102,0,51,0.3)' }}
       >
-        {['React', 'FastAPI', 'Gemini'].map((t) => (
+        {['React', 'FastAPI', 'AI'].map((t) => (
           <span key={t} className="rounded-full px-3 py-1.5 text-[11px] font-medium text-ink" style={{ background: 'rgba(102,0,51,0.06)' }}>
             {t}
           </span>

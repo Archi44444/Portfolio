@@ -59,35 +59,7 @@ export default function Contact() {
           </div>
         </div>
 
-        <motion.form
-          initial="hidden"
-          whileInView="show"
-          viewport={{ once: true, amount: 0.2 }}
-          variants={fadeUp}
-          onSubmit={submit}
-          className="lg:col-span-7"
-        >
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2">
-            <Field label="Name" value={form.name} onChange={(v) => setForm({ ...form, name: v })} placeholder="Jane Doe" />
-            <Field label="Email" type="email" value={form.email} onChange={(v) => setForm({ ...form, email: v })} placeholder="jane@company.com" />
-          </div>
-          <div className="mt-8">
-            <Field
-              label="Message"
-              textarea
-              value={form.message}
-              onChange={(v) => setForm({ ...form, message: v })}
-              placeholder="Tell me a little about what you're working on…"
-            />
-          </div>
-
-          <div className="mt-10 flex items-center gap-6">
-            <MagneticButton as="button" variant="solid" icon={<ArrowUpRight size={16} />}>
-              Send message
-            </MagneticButton>
-            {sent && <span className="text-sm text-muted">Opening your mail client…</span>}
-          </div>
-        </motion.form>
+        
       </div>
     </section>
   )
